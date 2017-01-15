@@ -1,0 +1,116 @@
+<!-- Skeleton boilerplate and index.html used -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>Naomi Haverland | Portfolio</title>
+  <meta name="description" content="Naomi Haverland's online gallery of work and contact">
+  <meta name="author" content="Katie of katcandodev.com; launched 4/2014">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href="http://fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main-skel.css">
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="images/arrow.png">
+
+  <!-- Scripts 
+  =========================== -->
+  <script src="js/transitions.js"></script>
+
+</head>
+<body>
+<!-- <body background="images/2RingPop.png" bgproperties="fixed"> -->
+
+  <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <div class="header container" id="top">
+
+    <div class="row">
+      <nav class="four columns navigation-primary">
+          <h1>Naomi Haverland<hr></h1>
+
+          <ul id="nav">
+            <li class="menu-column" id="gal">
+              <a class="tab" id="gal-tab" href="javascript:showHideSub('gal-sub')">Galleries<img id="arrowdown" src="images/arrow.png"/></a>
+              <!-- contents under this tab -->
+              <div id="gal-sub" class="tab-content submenu" style="opacity:0; height:0">
+                <ul id="submenu">
+                  <li><a href="gallery-portraits.html">Portraits</a></li>
+                  <li><a href="gallery-chalk.html">Chalk Art</a></li>
+                  <li><a href="gallery-other.html">Other Work</a></li>
+                </ul>
+              </div>
+            </li>
+
+<!--
+            <li><a id="menu-bio" class="tab">Bio</a></li>
+            <li><a id="menu-com">Commissions</a></li>
+            <li><a id="menu-cont">Contact</a></li>
+-->
+            <li><a id="menu-bio" href="javascript:showHideCont('bio')">Bio</a></li>
+            <li><a id="menu-com" href="javascript:showHideCont('com')">Commissions</a></li>
+            <li><a id="menu-cont" href="javascript:showHideCont('contact')">Contact</a></li>
+          </ul>
+
+          <footer>
+            <small>2015  |  <a href="http://katcandodev.com">katcandodev.com</a></small>
+          </footer>
+      </nav>
+      
+      <div id="bio" class="eight columns main-content" style="opacity:0">
+        <h4>Bio</h4>
+        <article>
+          <img id="bio-img" src="images/bioimg.jpg" alt="photo of Naomi">
+          <p>Naomi Haverland is a painter living in Denver, Colorado. Born in 1981, she is a native to the state. She enjoys painting, making crafts with her sweet children and dogs, as well as participating in religious activities and watching reality tv shows. She draws inspiration for her artwork from children, Jesus, and garbage.  She works in many mediums, but primarily acrylics, oils, and chalk.</p>
+          <p>She participates in the annual Denver Chalk art festival and has won three awards. In 2012 Naomi won the award for "Best Color", in 2015, "Most Whimsical", and in 2013, 2014, and 2015 she won the "People's Choice" award.</p>
+          <p>Her most recognizable piece of art, “Hello, My Name is Awsum,” was recreated onto a 30 foot tall building and can be seen for blocks near the 16th street mall in downtown Denver.  You can often find Naomi's work displayed in galleries and restaurants in the Denver area, including a current exhibit of her prints at Sally Centigrade.</p>
+          <p>Currently, Naomi is creating a series of portraits of children entitled “The New Masters of Dada” which explores the combination of realism and Dadaism.  She hopes to unveil the series in 2016.</p>
+        </article>
+        <br>
+        <a id="to-top" href="#top">Back to Top</a>
+      </div>
+
+      <div id="com" class="eight columns main-content" style="opacity:0">
+        <h4>Commissions</h4>
+        <article>
+          <div class="half-com" id="com-info"><p>If you wish to commission Naomi to create a custom portrait, please <a id="skip-to-cont" href="javascript:showHideCont('contact')">contact</a> her with your request. She prefers to paint from her own photographs, but may make exceptions if necessary.</p><p>16"x20" one person portrait = $500</p></div>
+          <div class="half-com" id="com-photo"><img src="images/comPortraits-min.jpg" alt="tiled image of 4 portraits"></div>
+        </article>
+        <br>
+        <a id="to-top" href="#top">Back to Top</a>
+      </div>
+
+      <div id="contact" class="eight columns main-content"  style="opacity:0">
+        <h4>Contact Naomi</h4>
+        <p>To inquire about commissions or artwork availability</p>
+        <p><img class="soc-icon" src="images/whitephone.png" alt="phone icon">(303) 349-4833</p>
+        <p><img class="soc-icon" src="images/whiteemail.png" alt="email icon">mnhaverland@msn.com</p>
+        <p><a href="https://instagram.com/naomihaverland/"><img class="soc-icon" src="images/whiteinstagram.png" alt="instagram icon"></a>Instagram @naomihaverland</p>
+        <p><a href="https://www.flickr.com/photos/131931192@N06/"><img class="soc-icon" src="images/whiteflickr.png" alt="flickr icon"></a>Photostream</p>
+        <p><a href="https://www.facebook.com/NaomiHaverland"><img class="soc-icon" src="images/whitefacebook.png" alt="facebook icon"></a>Facebook Page</p>
+        <br>
+        <a id="to-top" href="#top">Back to Top</a>
+      </div>
+    </div>
+
+  </div>
+
+<!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+</body>
+</html>

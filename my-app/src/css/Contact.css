@@ -1,0 +1,13 @@
+.soc-icon {
+  height: 2em;
+  width: auto;
+  margin-bottom: -0.5em;
+}
+
+.row .main-content a {
+  color: #eee;
+}
+
+.row .main-content a:hover {
+  color: #1EAEDB;
+}

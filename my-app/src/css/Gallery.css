@@ -1,0 +1,34 @@
+.gallery {
+  background: rgba(0,0,0,0.7);
+}
+
+.gallery-nav {
+  align-items: center;
+  background-color: black;
+  color: #eee;
+  display: flex;
+  letter-spacing: 0.1em;
+  justify-content: space-between;
+  padding: 10px;
+  text-transform: none;
+}
+
+.gallery-nav a {
+  color: #eee;
+  margin-left: 15px;
+  padding: 10px;
+  text-decoration: none;
+  transition: 0.3s all;
+}
+
+.gallery-nav a:hover {
+  color: #1EAEDB;
+}
+
+@media screen and (max-width: 550px) {
+  .center-nav {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 50%;
+  }
+}
