@@ -1,0 +1,18 @@
+.App.portrait {
+  background: url('../images/landingmobile.jpg') cover fixed !important;
+  height: 100vh;
+}
+
+.App.portrait .navigation-primary {
+  height: 100vh;
+}
+
+.main-content.portrait {
+  background-color: #000 !important;
+  opacity: 1;
+}
+
+.App.portrait #to-top {
+  height: 1;
+  opacity: 1;
+}

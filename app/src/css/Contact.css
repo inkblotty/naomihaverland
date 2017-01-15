@@ -1,0 +1,19 @@
+.soc-icon {
+  height: 2em;
+  width: auto;
+  margin-bottom: -0.5em;
+}
+
+.row .main-content.contact a {
+  color: #eee;
+}
+
+.row .main-content.contact a:hover {
+  color: #1EAEDB;
+}
+
+@media screen and (max-width: 700px) {
+  .soc-icon {
+    height: 1.8em;
+  }
+}
