@@ -187,7 +187,7 @@ class Gallery extends Component {
     currImages = currImages.map((img, i) => {
       let attributes = {
         src: img.url,
-        alt: img.description,
+        alt: img.description || 'work by Naomi Haverland',
       };
 
       if (img.title) {
@@ -196,7 +196,7 @@ class Gallery extends Component {
 
       return (
         <div key={ `slider-img-${i}` } className='slider-image-wrapper'>
-          <img {...attributes} />
+          <img { ...attributes } />
         </div>
       )
     })

@@ -1,10 +1,12 @@
+.gitignore
+
 node_modules
 build/*
 images
 
 *.sublime-workspace
 *.db
-*.sublime-workspace
+*.sublime-project
 
 .DS_Store
 .env
