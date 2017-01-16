@@ -1,7 +1,7 @@
 .gitignore
 
 node_modules
-build/*
+build
 images
 
 *.sublime-workspace
