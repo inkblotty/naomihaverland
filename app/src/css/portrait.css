@@ -1,10 +1,10 @@
 .App.portrait {
   background: url('../images/landingmobile.jpg') cover fixed !important;
-  height: 100vh;
+  height: 100%;
 }
 
 .App.portrait .navigation-primary {
-  height: 100vh;
+  height: 100%;
 }
 
 .main-content.portrait {

@@ -69,6 +69,14 @@ h4 {
   background-color: rgba(0, 0, 0, 0.7);
 }
 
+#to-top {
+  color: #1EAEDB;
+}
+
+#to-top:hover {
+  color: white;
+}
+
 @media screen and (max-width: 500px) {
   .App {
     background: url('../images/landingmobile.jpg') repeat fixed;

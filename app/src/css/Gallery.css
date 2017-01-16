@@ -51,8 +51,17 @@
   }
 }
 
+.slick-slider {
+  display: none;
+}
+
+.slick-slider.slick-initialized {
+  display: block;
+}
+
 .slider-container {
   margin: 0 auto;
+  min-height: 300px;
   width: 95%;
 }
 
