@@ -7,9 +7,9 @@ import Loading from '../images/loading.svg';
 import '../css/Gallery.css';
 
 import AbeLincoln from '../images/portraits/abelincoln-min.jpg';
-import AnnieOakley from '../images/chalk/annieoakley.jpg';
 import Anniversary from '../images/other/The_Anniversary.jpg';
 import AwsumMural from '../images/other/16th_street_mural.jpg';
+import BackToSchool from '../images/chalk/backtoschoolchalk.jpg';
 import BackYard1 from '../images/other/Back_Yard_Cap_Fence.JPG';
 import BackYard2 from '../images/other/Back_Yard_Tree_House.JPG';
 import BenFranklin from '../images/chalk/benfranklin.jpg';
@@ -39,6 +39,7 @@ import HelloMyNameIsAwsum from '../images/portraits/A4_Hello_My_Name_is_Awsum-mi
 import Houston1 from '../images/chalk/houston1.jpg';
 import Houston2016 from '../images/chalk/houston2016.jpg';
 import JensonIsNotHappy from '../images/portraits/A8_Jenson_is_not_Happy.jpg';
+import JohnGlenn from '../images/chalk/johnglenn.jpg';
 import KidRock1 from '../images/chalk/Kid_Rock_Portrait.JPG';
 import KidRock2 from '../images/chalk/Kid_Rock_Portrait_2.JPG'
 import LeonardKnight from '../images/portraits/A1_Leonard_Knight_at_Salvation_Mountain-min.jpg';
@@ -49,9 +50,12 @@ import ManualForSpeed from '../images/chalk/Manual_for_Speed.JPG';
 import Marietta from '../images/chalk/marietta.jpg';
 import MiloBirthday from '../images/portraits/B1_Milo_on_his_Birthday-min.jpg';
 import MrRabbit from '../images/other/Mr_Rabbit_and_Mrs_Dear.jpg';
+import Oliver from '../images/chalk/oliver.jpg';
+import Peephole from '../images/chalk/peephole.jpg';
 import PennyHorse from '../images/portraits/B2_The_Penny_Horse-min.jpg';
 import Phoropter from '../images/portraits/8The_Phoropter-min.jpg';
 import Piano from '../images/other/16th_Street_Mall_Piano.JPG';
+import Pope from '../images/chalk/pope2.jpg';
 import RingPop from '../images/portraits/2Ring_Pop-min.JPG';
 import RadiatingHeart from '../images/other/Radiating_Heart_Body_Paint.JPG';
 import RockyMountain from '../images/chalk/rockymountainshowdown.jpg';
@@ -99,7 +103,7 @@ const images = {
     { url: LickMini, description: 'portrait of a mouth with tongue sticking out' }
   ],
   chalk: [
-    { url: AnnieOakley, title: 'Annie Oakley', description: 'chalk art portrait of Annie Oakley on brick sidewalk' },
+    { url: BackToSchool, title: 'Back to School', description: 'chalk back to school' },
     { url: BenFranklin, title: 'Ben Franklin', description: 'chalk art portrait of Benjamin Franklin on asphalt' },
     { url: CliveChalk, title: 'Clive\'s Pencil Trick', description: 'chalk art of Clive\'s Pencil Trick portait, a boy with a pencil in his nose' },
     { url: Denver2011, description: 'chalk art from the Denver Chalk Art Festival in 2011' },
@@ -108,12 +112,16 @@ const images = {
     { url: Denver2014, description: 'chalk art from the Denver Chalk Art Festival in 2014' },
     { url: Houston1, description: 'chalk art of girl with banana on her head' },
     { url: Houston2016, description: 'chalk art of Mr Bean' },
+    { url: JohnGlenn, title: 'John Glenn', description: 'chalk portrait of john glenn' },
     { url: WillyWonka, description: 'chalk art portrait of Gene Wilder as Willy Wonka' },
     { url: LadyBug, description: 'chalk art portrait of Roxanne with a lady bug on her face' },
     { url: KidRock1, description: 'chalk art portrait of Kid Rock 1' },
     { url: KidRock2, description: 'chalk art portrait of Kid Rock 2' },
     { url: ManualForSpeed, description: 'chalk art portait of tiger mouth' },
     { url: Marietta, title: 'Marietta', description: 'Marietta, chalk art of elderly scholar with book and glasses in his hands' },
+    { url: Oliver, title: 'Oliver', description: 'chalk oliver' },
+    { url: Peephole, description: 'peephole' },
+    { url: Pope, description: 'chalk pope' },
     { url: RockyMountain, description: 'chalk art of painted face, half for the Rams in green and white, and half for the Buffs in Gold and Black' }
   ],
   misc: [
